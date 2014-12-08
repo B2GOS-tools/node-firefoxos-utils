@@ -1,0 +1,31 @@
+{
+    "name": "node-firefoxos-utils",
+    "version": "0.0.1",
+    "description": "Firefox OS utilities ",
+    "keywords": [
+        "firefox os",
+        "firefox",
+    	"command line",
+    	"remote",
+    	"debugger"
+    ],
+    "author": {
+        "name": "Daniel Coloma",
+        "email": "danielcoloma@gmail.com",
+        "web": "http://github.com/dcoloma",
+        "twitter": "danielcoloma"
+    },
+    "license": {
+        "type": "Apache 2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/danielcoloma/node-firefoxos-utils.git"
+    },
+    "dependencies": {
+        "adb.js": "git://github.com/arcturus/adb.js.git#master"
+    },
+    "engines": {
+        "node": ">=0.10.10"
+    }
+}
